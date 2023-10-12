@@ -9,7 +9,7 @@ class FileName:
         self.component = f"{input_name}.tsx"
         self.index = "index.ts"
 
-folder_path = f"path/{input_name}"
+folder_path = f"path/{input_name}/"
 
 os.makedirs(folder_path)
 
